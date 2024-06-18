@@ -1,14 +1,8 @@
  #include<bits/stdc++.h> 
-using namespace std; 
- 
-
-
-
-
-
-
-
-
+ #include<utility>
+ #include<vector>
+ using namespace std; 
+ /*
  void explainPair (){
     pair <int, int> p ={1,2}; // it could be any data type 
      
@@ -27,7 +21,7 @@ using namespace std;
  }
 
 //////////////////////////////////////////////////////
-
+*/
  void explainVector(){
       vector<int> v; // creates empty container 
       v.push_back(1);
@@ -35,13 +29,24 @@ using namespace std;
 
       vector<pair<int,int>>vec;
 
-       v.push_back({1,2});
-       v.emplace_back(1,2);
+       vec.push_back({1,2});
+       vec.emplace_back(1,2);
 
-       vector<int>v(5,100); //{100,100,100,100,100} five instances of 100
+       vector<int>v1(5,100); //{100,100,100,100,100} five instances of 100
 
-       vector<int> v(5); //{" " ," " ," " ," " ," " }
+       vector<int> v2(5); //{" " ," " ," " ," " ," " }
          
-       vector<int> v1(5,20); //{20,20,20,20,20}
-       vector <int> v2(v1);
+       vector<int> v3(5,20); //{20,20,20,20,20}
+       vector <int> v4(v3);
         }
+ int main() {
+    explainVector();
+    return 0;
+}
+        
+    
+ 
+
+
+
+    
